@@ -1,0 +1,58 @@
+<!-- declara el tipo de archivo -->
+<!DOCTYPE html>
+<!-- etiqueta de inicio html y pongo el lenguaje en español -->
+<html lang="es">
+  <!-- espacio de comunicacion entre mi sitio web y el navegador -->
+  <head>
+    <!-- el atributo charset para trabajar con caracteres latinos -->
+    <meta charset="UTF-8" />
+    <!-- el atributo name en viewport para trabajar con responsive y que se vea bien en cualquier dispositivo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- el titulo que se va a ver en el navegador -->
+    <title>PAGINA DE GABY</title>
+  </head>
+  <!-- el cuerpo de todo misitio web va en la etiqueta body -->
+  <body>
+    <div>
+      <!-- en el header va el logo, menu de navegacion y el 
+        titulo con h1 aunque a veces puede ir fuera debajo del
+        header -->
+      <header id="arriba">
+        <nav>
+          <ul>
+            <!-- Enlaces internos estoy redirijiendo una parte de mi pagina -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./pages/personajes.html">Personajes</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Nosotros</a></li>
+          </ul>
+          <div><a href="#abajo">Ir abajo</a></div>
+        </nav>
+      </header>
+    </div>
+    <!-- las etiquetas h son con cierre y son en bloque, 
+    ocupan el 100 % de la pantalla la importancia de cada
+    encabezado crece de menor a mayor nivel de h, sin 
+    importar el tamaño de la fuente -->
+    <h1>REINO ANIMAL</h1>
+    <h2>Vertebrados</h2>
+    <h3>Mamiferos</h3>
+    <h4>Bipedos</h4>
+    <h4>Cuadrupedos</h4>
+    <h3>Aves</h3>
+    <h4>Voladoras</h4>
+    <h4>No Voladoras</h4>
+    <h3>Reptiles</h3>
+    <h3>Peces</h3>
+    <h3>Anfibios</h3>
+    <h2>Invertebrados</h2>
+    <h3>Insectos</h3>
+    <h4>Voladores</h4>
+    <h4>No voladores</h4>
+
+    <footer id="abajo">
+        <div>Pie de Pagina</div>
+        <div><a href="#arriba">ir arriba</a></div>
+    </footer>
+  </body>
+</html>
