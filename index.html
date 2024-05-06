@@ -10,6 +10,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- el titulo que se va a ver en el navegador -->
     <title>PAGINA DE GABY</title>
+    <link rel="stylesheet" href="./css/estilos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap"
+      rel="stylesheet"
+    />
+    />
   </head>
   <!-- el cuerpo de todo misitio web va en la etiqueta body -->
   <body>
@@ -17,9 +26,9 @@
       <!-- en el header va el logo, menu de navegacion y el 
         titulo con h1 aunque a veces puede ir fuera debajo del
         header -->
-      <header id="arriba">
+      <header id="arriba" class="encabezado">
         <nav>
-          <ul>
+          <ul class="menuSuperior">
             <!-- Enlaces internos estoy redirijiendo una parte de mi pagina -->
             <li><a href="index.html">Home</a></li>
             <li><a href="./pages/personajes.html">Personajes</a></li>
@@ -34,25 +43,37 @@
     ocupan el 100 % de la pantalla la importancia de cada
     encabezado crece de menor a mayor nivel de h, sin 
     importar el tamaño de la fuente -->
-    <h1>REINO ANIMAL</h1>
-    <h2>Vertebrados</h2>
-    <h3>Mamiferos</h3>
-    <h4>Bipedos</h4>
-    <h4>Cuadrupedos</h4>
-    <h3>Aves</h3>
-    <h4>Voladoras</h4>
-    <h4>No Voladoras</h4>
-    <h3>Reptiles</h3>
-    <h3>Peces</h3>
-    <h3>Anfibios</h3>
-    <h2>Invertebrados</h2>
-    <h3>Insectos</h3>
-    <h4>Voladores</h4>
-    <h4>No voladores</h4>
+    <section class="texto">
+      <h1>REINO ANIMAL</h1>
+      <h2>Vertebrados</h2>
+      <h3>Mamiferos</h3>
+      <h4>Bipedos</h4>
+      <h4>Cuadrupedos</h4>
+      <h3>Aves</h3>
+      <h4>Voladoras</h4>
+      <h4>No Voladoras</h4>
+      <h3>Reptiles</h3>
+      <h3>Peces</h3>
+      <h3>Anfibios</h3>
+      <h2>Invertebrados</h2>
+      <h3>Insectos</h3>
+      <h4>Voladores</h4>
+      <h4>No voladores</h4>
+    </section>
 
-    <footer id="abajo">
-        <div>Pie de Pagina</div>
-        <div><a href="#arriba">ir arriba</a></div>
+    <section>
+      <p class="rojo">Mi contenido con estilo</p>
+      <p id="verde">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+        quibusdam repellendus officiis? Repudiandae ullam quod asperiores
+        officia quos voluptatem harum, in necessitatibus minima eligendi tempore
+        fugit placeat assumenda et unde?
+      </p>
+    </section>
+
+    <footer id="abajo" class="footer">
+      <div>Pie de Pagina</div>
+      <div><a href="#arriba">ir arriba</a></div>
     </footer>
   </body>
 </html>
